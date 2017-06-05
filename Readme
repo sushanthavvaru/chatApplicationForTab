@@ -8,3 +8,4 @@ Users are displayed using List View and Map View.
 TO maintain responsive and fast application, the users data is accessed from SQL Database once the data is loaded from the sever.
 Users can chat with each other using the firebase Database. History of the chat is maintained.
 Async task is used access missing location information of users from GeoCoding class.
+Used Volley to access network.
