@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_menu_share"
+            android:title="Post User"
+            android:id="@+id/post_user" />
+    </group>
+
+    <item android:title="View User">
+        <menu>
+            <item
+                android:id="@+id/list_view"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="List View" />
+            <item
+                android:id="@+id/map_view"
+                android:icon="@android:drawable/ic_menu_mapmode"
+                android:title="Map View" />
+        </menu>
+    </item>
+    <item android:title="Chat Widnow">
+        <menu>
+
+            <item android:title="@string/chatmenu"
+                android:id="@+id/chat"
+                android:icon="@android:drawable/ic_menu_send" />
+        </menu>
+    </item>
+
+</menu>
