@@ -1,0 +1,10 @@
+Created by Sushanth Avvaru
+
+Applciation is dveloped only for Android Tablets.
+User needs to Register to use the Application.
+Authentication is done using Firebase.
+User can access other users information(JSON format) from Bismarck server(Server in College).
+Users are displayed using List View and Map View.
+TO maintain responsive and fast application, the users data is accessed from SQL Database once the data is loaded from the sever.
+Users can chat with each other using the firebase Database. History of the chat is maintained.
+Async task is used access missing location information of users from GeoCoding class.
